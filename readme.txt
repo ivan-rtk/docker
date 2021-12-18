@@ -1,0 +1,1 @@
+docker run -d -p 1234:80 -v /home/prokopev/html/index.html:/var/www/index.html:ro --name my_nginx1 nginx:01
